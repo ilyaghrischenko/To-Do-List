@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Windows\\TaskListWindow.xaml.cs",
               "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\TaskListWindow.xaml.cs",
               "RelativeToolTip": "Windows\\TaskListWindow.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T12:08:07.905Z",
               "EditorCaption": ""
@@ -62,8 +62,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T11:58:57.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T11:58:57.178Z"
             },
             {
               "$type": "Document",
