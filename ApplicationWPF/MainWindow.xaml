@@ -5,8 +5,79 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ApplicationWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Log in" Height="300" Width="250"
+        MaxHeight="300" MinHeight="300"
+        MaxWidth="250" MinWidth="250"
+        WindowStartupLocation="CenterScreen">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="2.5*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
 
+        <Grid Grid.Row="1"
+              Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Login:"
+                           HorizontalAlignment="Center"
+                           FontFamily="Times New Roman"
+                           FontWeight="Bold"/>
+                <TextBox Grid.Row="1"
+                         x:Name="LoginInput"
+                         TextAlignment="Center"
+                         BorderBrush="Blue"/>
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Password:"
+                           HorizontalAlignment="Center"
+                           FontFamily="Times New Roman"
+                           FontWeight="Bold"/>
+                <PasswordBox Grid.Row="1"
+                             x:Name="PasswordInput"
+                             HorizontalContentAlignment="Center"
+                             BorderBrush="Blue"/>
+            </Grid>
+
+            <Grid Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="1"
+                        Content="Log in"
+                        x:Name="LogInButton"
+                        Click="LogInButton_Click"
+                        BorderBrush="Blue"
+                        FontFamily="Times New Roman"
+                        FontWeight="Bold"/>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>
