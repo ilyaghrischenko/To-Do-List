@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|c:\\github\\to-do-list\\applicationwpf\\windows\\tasklistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:windows\\tasklistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|c:\\github\\to-do-list\\applicationwpf\\windows\\tasklistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:windows\\tasklistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|c:\\github\\to-do-list\\applicationwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -14,22 +22,35 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 167,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\github\\To-Do-List\\ApplicationWPF\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
+              "Title": "TaskListWindow.xaml.cs",
+              "DocumentMoniker": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\TaskListWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\TaskListWindow.xaml.cs",
+              "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\TaskListWindow.xaml.cs",
+              "RelativeToolTip": "Windows\\TaskListWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T12:08:07.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskListWindow.xaml",
+              "DocumentMoniker": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\TaskListWindow.xaml",
+              "RelativeDocumentMoniker": "Windows\\TaskListWindow.xaml",
+              "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\TaskListWindow.xaml",
+              "RelativeToolTip": "Windows\\TaskListWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-20T17:56:59.806Z",
+              "WhenOpened": "2024-05-23T12:07:29.673Z",
               "EditorCaption": ""
             },
             {
@@ -40,9 +61,21 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T17:56:56.079Z",
+              "WhenOpened": "2024-05-23T11:58:57.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\github\\To-Do-List\\ApplicationWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-23T11:57:29.365Z",
               "EditorCaption": ""
             }
           ]
