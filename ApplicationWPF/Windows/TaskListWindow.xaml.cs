@@ -13,6 +13,7 @@ namespace ApplicationWPF.Windows
         }
         public TaskListWindow(User user)
         {
+            InitializeComponent();
             _user = user;
         }
     }

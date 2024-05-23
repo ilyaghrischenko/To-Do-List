@@ -75,3 +75,5 @@ C:\github\To-Do-List\ApplicationWPF\bin\Debug\net8.0-windows\DataBase.dll
 C:\github\To-Do-List\ApplicationWPF\bin\Debug\net8.0-windows\DataBase.pdb
 C:\github\To-Do-List\ApplicationWPF\obj\Debug\net8.0-windows\ApplicationWPF.csproj.AssemblyReference.cache
 C:\github\To-Do-List\ApplicationWPF\obj\Debug\net8.0-windows\Applicat.6AD006F6.Up2Date
+C:\github\To-Do-List\ApplicationWPF\obj\Debug\net8.0-windows\Windows\TaskListWindow.g.cs
+C:\github\To-Do-List\ApplicationWPF\obj\Debug\net8.0-windows\Windows\TaskListWindow.baml
