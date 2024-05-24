@@ -5,7 +5,7 @@ namespace ApplicationWPF.Windows
 {
     public partial class TaskListWindow : Window
     {
-        private User _user;
+        private readonly User _user;
 
         public TaskListWindow()
         {

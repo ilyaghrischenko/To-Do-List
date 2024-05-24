@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\github\\To-Do-List\\ApplicationWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|c:\\github\\to-do-list\\applicationwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|c:\\github\\to-do-list\\applicationwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|c:\\github\\to-do-list\\applicationwpf\\windows\\tasklistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:windows\\tasklistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|c:\\github\\to-do-list\\applicationwpf\\windows\\tasklistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:windows\\tasklistwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|c:\\github\\to-do-list\\applicationwpf\\windows\\tasklistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:windows\\tasklistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|c:\\github\\to-do-list\\applicationwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|c:\\github\\to-do-list\\applicationwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,54 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TaskListWindow.xaml.cs",
               "DocumentMoniker": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\TaskListWindow.xaml.cs",
               "RelativeDocumentMoniker": "Windows\\TaskListWindow.xaml.cs",
               "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\TaskListWindow.xaml.cs",
               "RelativeToolTip": "Windows\\TaskListWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T12:08:07.905Z"
+              "WhenOpened": "2024-05-24T16:59:10.64Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TaskListWindow.xaml",
               "DocumentMoniker": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\TaskListWindow.xaml",
               "RelativeDocumentMoniker": "Windows\\TaskListWindow.xaml",
               "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\TaskListWindow.xaml",
               "RelativeToolTip": "Windows\\TaskListWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-23T12:07:29.673Z"
+              "WhenOpened": "2024-05-24T16:59:02.791Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\github\\To-Do-List\\ApplicationWPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwAoAAAAbAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T11:58:57.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\github\\To-Do-List\\ApplicationWPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-23T11:57:29.365Z"
+              "WhenOpened": "2024-05-23T11:57:29.365Z",
+              "EditorCaption": ""
             }
           ]
         }
