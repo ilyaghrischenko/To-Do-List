@@ -38,8 +38,7 @@
               "RelativeToolTip": "Windows\\TaskListWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T16:59:10.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T16:59:10.64Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T11:58:57.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T11:58:57.178Z"
             },
             {
               "$type": "Document",
@@ -75,8 +73,7 @@
               "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-23T11:57:29.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T11:57:29.365Z"
             }
           ]
         }
