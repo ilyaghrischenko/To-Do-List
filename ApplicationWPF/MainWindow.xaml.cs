@@ -22,6 +22,7 @@ namespace ApplicationWPF
             }
 
             User user = new(LoginInput.Text, PasswordInput.Password);
+            LogInButton.IsEnabled = false;
             var users = await ToDoListHandle.GetUsersAsync();
             var findedUser = users.FirstOrDefault(x => x.ToString() == user.ToString());
 

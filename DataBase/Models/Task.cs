@@ -5,17 +5,16 @@
         public int Id { get; set; }
         public string Title { get; set; }
         public string? Description { get; set; }
-        public bool IsCompleted { get; set; }
+        public bool IsCompleted { get; set; } = false;
         public DateTime DueDate { get; set; }
         public Category? Category { get; set; }
         public Priority Priority { get; set; }
 
         public Task() { }
-        public Task(string title, bool isCompleted, DateTime dueDate, Priority priority, Category? category = null, string? description = null)
+        public Task(string title, DateTime dueDate, Priority priority, Category? category = null, string? description = null)
         {
             Title = title;
             Description = description;
-            IsCompleted = isCompleted;
             DueDate = dueDate;
             Category = category;
             Priority = priority;
