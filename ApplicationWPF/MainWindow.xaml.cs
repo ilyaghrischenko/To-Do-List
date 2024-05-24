@@ -2,6 +2,7 @@
 using DataBase;
 using DataBase.Models;
 using ApplicationWPF.Windows;
+using System.Net.NetworkInformation;
 
 namespace ApplicationWPF
 {
@@ -10,6 +11,27 @@ namespace ApplicationWPF
         public MainWindow()
         {
             InitializeComponent();
+            if (!InternetConnectionCheck())
+            {
+                MessageBox.Show("Connect to the internet to use the application");
+                Close();
+            }
+        }
+
+        private bool InternetConnectionCheck()
+        {
+            try
+            {
+                using (Ping ping = new Ping())
+                {
+                    PingReply reply = ping.Send("8.8.8.8", 3000);
+                    return reply.Status == IPStatus.Success;
+                }
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
 
         private async void LogInButton_Click(object sender, RoutedEventArgs e)
