@@ -79,3 +79,5 @@ C:\github\To-Do-List\ApplicationWPF\obj\Debug\net8.0-windows\Windows\TaskListWin
 C:\github\To-Do-List\ApplicationWPF\obj\Debug\net8.0-windows\Windows\TaskListWindow.baml
 C:\github\To-Do-List\ApplicationWPF\obj\Debug\net8.0-windows\Windows\RegistrationWindow.g.cs
 C:\github\To-Do-List\ApplicationWPF\obj\Debug\net8.0-windows\Windows\RegistrationWindow.baml
+C:\github\To-Do-List\ApplicationWPF\obj\Debug\net8.0-windows\Windows\AdditionPanels.g.cs
+C:\github\To-Do-List\ApplicationWPF\obj\Debug\net8.0-windows\Windows\AdditionPanels.baml

@@ -6,7 +6,10 @@
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:local="clr-namespace:ApplicationWPF.Windows"
         mc:Ignorable="d"
-        Title="AdditionPanels" Height="400" Width="500">
+        Title="AdditionPanels" Height="400" Width="500"
+        MaxHeight="400" MinHeight="400"
+        MaxWidth="500" MinWidth="500"
+        WindowStartupLocation="CenterScreen">
     <Grid>
 
         <Grid.ColumnDefinitions>
@@ -36,19 +39,30 @@
                 </Grid.ColumnDefinitions>
 
                 <Button Margin="10"
+                        x:Name="AddNewTaskButton"
                         Click="AddNewTask_Click" 
                         Content="ADD NEW TASK"
-                        Grid.Column="0"/>
+                        Grid.Column="0"
+                        FontFamily="Times New Roman"
+                        FontWeight="Bold"
+                        BorderBrush="Blue"/>
 
                 <Button Margin="10"
+                        x:Name="AddNewCategoryButton"
                         Click="AddNewCategory_Click" 
                         Content="ADD NEW CATEGORY"
-                        Grid.Column="1"/>
+                        Grid.Column="1"
+                        FontFamily="Times New Roman"
+                        FontWeight="Bold"
+                        BorderBrush="Blue"/>
 
                 <Button Margin="10"
                         Click="BackToTasks_Click" 
                         Content="BACK TO TASKS"
-                        Grid.Column="2"/>
+                        Grid.Column="2"
+                        FontFamily="Times New Roman"
+                        FontWeight="Bold"
+                        BorderBrush="Blue"/>
 
             </Grid>
             
@@ -74,30 +88,38 @@
                 <!--TITLE-->
                 <Label Content="Enter title:"
                        Grid.Column="1"
-                       VerticalAlignment="Center"/>
+                       VerticalAlignment="Center"
+                       FontFamily="Times New Roman"
+                       FontWeight="Bold"/>
                 <TextBox x:Name="Title_TextBox"
                          Grid.Column="1"
                          VerticalAlignment="Center"
                          HorizontalAlignment="Right"
-                         Width="150"/>
+                         Width="150"
+                         BorderBrush="Blue"/>
 
                 <!--DESCRIPTION-->
                 <Label Content="Enter description:"
                        Grid.Column="1"
                        Grid.Row="1"
-                       VerticalAlignment="Center"/>
+                       VerticalAlignment="Center"
+                       FontFamily="Times New Roman"
+                       FontWeight="Bold"/>
                 <TextBox x:Name="Description_TextBox"
                          Grid.Column="1"
                          Grid.Row="1"
                          VerticalAlignment="Center"
                          HorizontalAlignment="Right"
-                         Width="150"/>
+                         Width="150"
+                         BorderBrush="BLue"/>
 
                 <!--DATE-->
                 <Label Content="Select date:"
                        Grid.Column="1"
                        Grid.Row="2"
-                       VerticalAlignment="Center"/>
+                       VerticalAlignment="Center"
+                       FontFamily="Times New Roman"
+                       FontWeight="Bold"/>
                 <DatePicker x:Name="DatePicker"
                             Grid.Column="1"
                             Grid.Row="2"
@@ -108,25 +130,35 @@
                 <Label Content="Enter time:"
                        Grid.Column="1"
                        Grid.Row="3"
-                       VerticalAlignment="Center"/>
+                       VerticalAlignment="Center"
+                       FontFamily="Times New Roman"
+                       FontWeight="Bold"/>
                 <!--TIME-->
                 <StackPanel Grid.Row="3"
                             Grid.Column="1"
                             Orientation="Horizontal"
                             VerticalAlignment="Center"
                             HorizontalAlignment="Right">
-                    <Label Content="Hours:"/>
+                    <Label Content="Hours:"
+                           FontFamily="Times New Roman"
+                           FontWeight="Bold"/>
                     <TextBox x:Name="Hours_TextBox"
-                             Width="30"/>
-                    <Label Content="Minutes:"/>
+                             Width="30"
+                             BorderBrush="Blue"/>
+                    <Label Content="Minutes:"
+                           FontFamily="Times New Roman"
+                           FontWeight="Bold"/>
                     <TextBox x:Name="Minutes_TextBox"
-                             Width="30"/>
+                             Width="30"
+                             BorderBrush="Blue"/>
                 </StackPanel>
     
                 <!--CATEGORY-->
                 <Label Content="Select category:"
                        Grid.Column="1"
-                       Grid.Row="4"/>
+                       Grid.Row="4"
+                       FontFamily="Times New Roman"
+                       FontWeight="Bold"/>
                 <ComboBox x:Name="Categories_Box"
                           Grid.Column="1"
                           Grid.Row="4"
@@ -138,7 +170,9 @@
                 <Label Content="Select priority:"
                        Grid.Column="1"
                        Grid.Row="5"
-                       VerticalAlignment="Center"/>
+                       VerticalAlignment="Center"
+                       FontFamily="Times New Roman"
+                       FontWeight="Bold"/>
                 <ComboBox x:Name="Priorities_Box"
                           Grid.Column="1"
                           Grid.Row="5"
@@ -150,7 +184,10 @@
                         Content="ADD TASK"
                         Grid.Column="1"
                         Grid.Row="6"
-                        Margin="50,5"/>
+                        Margin="50,5"
+                        FontFamily="Times New Roman"
+                        FontWeight="Bold"
+                        BorderBrush="Blue"/>
 
             </Grid>
 
@@ -170,19 +207,25 @@
 
                 <Label Content="Enter category name:"
                        Grid.Column="1"
-                       VerticalAlignment="Center"/>
+                       VerticalAlignment="Center"
+                       FontFamily="Times New Roman"
+                       FontWeight="Bold"/>
                 <TextBox x:Name="CategoryName_TextBox"
                          Grid.Column="1"
                          VerticalAlignment="Center"
                          HorizontalAlignment="Right"
-                         Width="130"/>
+                         Width="130"
+                         BorderBrush="Blue"/>
 
                 <Button Click="AddCategory_Click"
                         Content="ADD CATEGORY"
                         Grid.Column="1"
                         Grid.Row="1"
                         Width="100"
-                        Height="30"/>
+                        Height="30"
+                        FontFamily="Times New Roman"
+                        FontWeight="Bold"
+                        BorderBrush="Blue"/>
 
             </Grid>
 

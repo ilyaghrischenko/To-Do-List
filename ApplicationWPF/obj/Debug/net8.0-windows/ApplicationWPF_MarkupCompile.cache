@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\github\To-Do-List\ApplicationWPF\App.xaml
-3-578021757
+4-870435482
 
-61741936978
+7551528384
 240-1039488545
-MainWindow.xaml;Windows\RegistrationWindow.xaml;Windows\TaskListWindow.xaml;
+MainWindow.xaml;Windows\AdditionPanels.xaml;Windows\RegistrationWindow.xaml;Windows\TaskListWindow.xaml;
 
 False
 

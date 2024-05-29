@@ -26,8 +26,8 @@ namespace DataBase.Models
 
         public override string ToString()
         {
-            var result = $"Title: {Title}, DueDate: {DueDate}, Priority: {Priority.Type}";
-            if (Category != null) result += $", Category: {Category}";
+            var result = $"Title: {Title}, DueDate: {DueDate}, Priority: {Priority/*.Type*/}";
+            if (Category != null) result += $", Category: {Category.Name}";
             if (Description != null) result += $", Description: {Description}";
             return result;
         }

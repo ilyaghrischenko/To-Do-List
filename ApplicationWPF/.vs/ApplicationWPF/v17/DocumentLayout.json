@@ -3,6 +3,17 @@
   "WorkspaceRootPath": "C:\\github\\To-Do-List\\ApplicationWPF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|c:\\github\\to-do-list\\applicationwpf\\windows\\additionpanels.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:windows\\additionpanels.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|c:\\github\\to-do-list\\applicationwpf\\windows\\additionpanels.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:windows\\additionpanels.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B974DB3C-2FFD-4659-B5CC-791280A497EE}|..\\DataBase\\DataBase.csproj|c:\\github\\to-do-list\\database\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|c:\\github\\to-do-list\\applicationwpf\\windows\\tasklistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9337726F-CB7B-4C96-82DF-DC1568AF6EE5}|ApplicationWPF.csproj|solutionrelative:windows\\tasklistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,19 +25,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\github\\To-Do-List\\DataBase\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "..\\DataBase\\Models\\Task.cs",
+              "ToolTip": "C:\\github\\To-Do-List\\DataBase\\Models\\Task.cs",
+              "RelativeToolTip": "..\\DataBase\\Models\\Task.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIA7wAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:35:49.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TaskListWindow.xaml.cs",
               "DocumentMoniker": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\TaskListWindow.xaml.cs",
               "RelativeDocumentMoniker": "Windows\\TaskListWindow.xaml.cs",
               "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\TaskListWindow.xaml.cs",
               "RelativeToolTip": "Windows\\TaskListWindow.xaml.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowEAAAAAhAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowD8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T14:15:18.929Z",
+              "WhenOpened": "2024-05-29T14:36:58.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdditionPanels.xaml.cs",
+              "DocumentMoniker": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\AdditionPanels.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\AdditionPanels.xaml.cs",
+              "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\AdditionPanels.xaml.cs",
+              "RelativeToolTip": "Windows\\AdditionPanels.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:26:37.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdditionPanels.xaml",
+              "DocumentMoniker": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\AdditionPanels.xaml",
+              "RelativeDocumentMoniker": "Windows\\AdditionPanels.xaml",
+              "ToolTip": "C:\\github\\To-Do-List\\ApplicationWPF\\Windows\\AdditionPanels.xaml",
+              "RelativeToolTip": "Windows\\AdditionPanels.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-29T14:17:16.482Z",
               "EditorCaption": ""
             }
           ]

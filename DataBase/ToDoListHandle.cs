@@ -13,7 +13,7 @@ namespace DataBase
         public static async Task<List<Priority>> GetPrioritiesAsync()
         {
             using ToDoListContext db = new();
-            return await db.Priorities.Include("Category").Include("Priority").Include("User").ToListAsync();
+            return await db.Priorities.ToListAsync();
         }
         public static async Task<List<DataBase.Models.Task>> GetTasksAsync()
         {

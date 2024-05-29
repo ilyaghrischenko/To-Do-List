@@ -1,25 +1,10 @@
 ﻿using DataBase;
 using DataBase.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace ApplicationWPF.Windows
 {
-    /// <summary>
-    /// Логика взаимодействия для AdditionPanels.xaml
-    /// </summary>
     public partial class AdditionPanels : Window
     {
         private User _user;
@@ -27,12 +12,24 @@ namespace ApplicationWPF.Windows
         public AdditionPanels(User user)
         {
             InitializeComponent();
-            Categories_Box.ItemsSource = _context.Categories.ToList();
-            Priorities_Box.ItemsSource = _context.Priorities.ToList();
+            LoadData();
             _user = user;
         }
-        private void AddNewTask_Click(object sender, RoutedEventArgs e)
+
+        private async System.Threading.Tasks.Task LoadData()
         {
+            Categories_Box.ItemsSource = await ToDoListHandle.GetCategoriesAsync();
+            Priorities_Box.ItemsSource = await ToDoListHandle.GetPrioritiesAsync();
+        }
+        private async System.Threading.Tasks.Task ChangeButtons(bool value)
+        {
+            AddNewTaskButton.IsEnabled = value;
+            AddNewCategoryButton.IsEnabled = !value;
+        }
+
+        private async void AddNewTask_Click(object sender, RoutedEventArgs e)
+        {
+            await ChangeButtons(false);
             TaskAdd_Grid.Visibility = Visibility.Visible;
             CatAdd_Grid.Visibility = Visibility.Collapsed;
         }
@@ -58,8 +55,9 @@ namespace ApplicationWPF.Windows
             await _context.SaveChangesAsync();
             MessageBox.Show("Task added!");
         }
-        private void AddNewCategory_Click(object sender, RoutedEventArgs e)
+        private async void AddNewCategory_Click(object sender, RoutedEventArgs e)
         {
+            await ChangeButtons(true);
             TaskAdd_Grid.Visibility = Visibility.Collapsed;
             CatAdd_Grid.Visibility = Visibility.Visible;
         }
@@ -77,16 +75,6 @@ namespace ApplicationWPF.Windows
             LoadData();
         }
         private void BackToTasks_Click(object sender, RoutedEventArgs e)
-        {
-            //TasksListWindow window = new(_user);
-            //window.Show();
-            Close();
-        }
-
-        private async void LoadData()
-        {
-            Categories_Box.ItemsSource = _context.Categories.ToList();
-            Priorities_Box.ItemsSource = _context.Priorities.ToList();
-        }
+        => Close();
     }
 }
