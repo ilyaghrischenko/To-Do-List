@@ -61,8 +61,8 @@ namespace ApplicationWPF.Windows
         }
         private async void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            //new AdditionPanels(_user).ShowDialog();
-            //await LoadAllTasks();
+            new AdditionPanels(_user).ShowDialog();
+            await LoadAllTasks();
         }
 
         private async void CompleteCheckBox_Click(object sender, RoutedEventArgs e)

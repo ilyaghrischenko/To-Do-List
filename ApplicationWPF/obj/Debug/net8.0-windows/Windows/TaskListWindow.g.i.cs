@@ -101,7 +101,7 @@ namespace ApplicationWPF.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ApplicationWPF;component/windows/tasklistwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ApplicationWPF;V1.0.0.0;component/windows/tasklistwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\TaskListWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
