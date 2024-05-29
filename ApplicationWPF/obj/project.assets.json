@@ -46,6 +46,61 @@
           }
         }
       },
+      "Extended.Wpf.Toolkit/4.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Xceed.Wpf.AvalonDock.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.VS2010.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.Toolkit.NET5.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Xceed.Wpf.AvalonDock.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.VS2010.NET5.dll": {},
+          "lib/net5.0/Xceed.Wpf.Toolkit.NET5.dll": {}
+        },
+        "resource": {
+          "lib/net5.0/cs-CZ/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net5.0/de/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net5.0/es/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net5.0/fr/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0/hu/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net5.0/it/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net5.0/ja-JP/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net5.0/pt-BR/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net5.0/ro/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net5.0/ru/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0/sv/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net5.0/zh-Hans/Xceed.Wpf.AvalonDock.NET5.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -1205,6 +1260,56 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Extended.Wpf.Toolkit/4.6.0": {
+      "sha512": "W67USjczMau4R5g8aU9/knYpCqnFurZ/kmzXnSvqxhC9YR3KaUTT2L+95WWoL1u9qlQ48U6ORP9s6I6x9/yW4Q==",
+      "type": "package",
+      "path": "extended.wpf.toolkit/4.6.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "Xceed_Logo_Retina-400x400.png",
+        "extended.wpf.toolkit.4.6.0.nupkg.sha512",
+        "extended.wpf.toolkit.nuspec",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "lib/net40/Xceed.Wpf.Toolkit.dll",
+        "lib/net40/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ja-JP/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/nl-BE/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Aero.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.Metro.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.AvalonDock.Themes.VS2010.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.Toolkit.NET5.dll",
+        "lib/net5.0/cs-CZ/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/de/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/es/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/fr/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/hu/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/it/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/ja-JP/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/pt-BR/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/ro/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/ru/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/sv/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "lib/net5.0/zh-Hans/Xceed.Wpf.AvalonDock.NET5.resources.dll",
+        "tools/install.ps1"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -3183,27 +3288,28 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "DataBase >= 1.0.0"
+      "DataBase >= 1.0.0",
+      "Extended.Wpf.Toolkit >= 4.6.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\dimab\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\To-Do-List\\ApplicationWPF\\ApplicationWPF.csproj",
+      "projectUniqueName": "O:\\ForEdu\\ITStep\\Предмети\\CommandProjectDotNet\\To-Do-List\\ApplicationWPF\\ApplicationWPF.csproj",
       "projectName": "ApplicationWPF",
-      "projectPath": "C:\\github\\To-Do-List\\ApplicationWPF\\ApplicationWPF.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\To-Do-List\\ApplicationWPF\\obj\\",
+      "projectPath": "O:\\ForEdu\\ITStep\\Предмети\\CommandProjectDotNet\\To-Do-List\\ApplicationWPF\\ApplicationWPF.csproj",
+      "packagesPath": "C:\\Users\\dimab\\.nuget\\packages\\",
+      "outputPath": "O:\\ForEdu\\ITStep\\Предмети\\CommandProjectDotNet\\To-Do-List\\ApplicationWPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dimab\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3219,8 +3325,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\github\\To-Do-List\\DataBase\\DataBase.csproj": {
-              "projectPath": "C:\\github\\To-Do-List\\DataBase\\DataBase.csproj"
+            "O:\\ForEdu\\ITStep\\Предмети\\CommandProjectDotNet\\To-Do-List\\DataBase\\DataBase.csproj": {
+              "projectPath": "O:\\ForEdu\\ITStep\\Предмети\\CommandProjectDotNet\\To-Do-List\\DataBase\\DataBase.csproj"
             }
           }
         }
@@ -3229,16 +3335,17 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Extended.Wpf.Toolkit": {
+            "target": "Package",
+            "version": "[4.6.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -3258,7 +3365,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,15 +9,17 @@
         public DateTime DueDate { get; set; }
         public Category? Category { get; set; }
         public Priority Priority { get; set; }
+        public User User { get; set; }
 
         public Task() { }
-        public Task(string title, DateTime dueDate, Priority priority, Category? category = null, string? description = null)
+        public Task(string title, DateTime dueDate, Priority priority, User user, Category? category = null, string? description = null)
         {
             Title = title;
             Description = description;
             DueDate = dueDate;
             Category = category;
             Priority = priority;
+            User = user;
         }
 
         public override string ToString()

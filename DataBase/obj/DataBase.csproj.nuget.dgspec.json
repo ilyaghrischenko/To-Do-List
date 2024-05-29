@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\github\\To-Do-List\\DataBase\\DataBase.csproj": {}
+    "O:\\ForEdu\\ITStep\\Предмети\\CommandProjectDotNet\\To-Do-List\\DataBase\\DataBase.csproj": {}
   },
   "projects": {
-    "C:\\github\\To-Do-List\\DataBase\\DataBase.csproj": {
+    "O:\\ForEdu\\ITStep\\Предмети\\CommandProjectDotNet\\To-Do-List\\DataBase\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\To-Do-List\\DataBase\\DataBase.csproj",
+        "projectUniqueName": "O:\\ForEdu\\ITStep\\Предмети\\CommandProjectDotNet\\To-Do-List\\DataBase\\DataBase.csproj",
         "projectName": "DataBase",
-        "projectPath": "C:\\github\\To-Do-List\\DataBase\\DataBase.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\To-Do-List\\DataBase\\obj\\",
+        "projectPath": "O:\\ForEdu\\ITStep\\Предмети\\CommandProjectDotNet\\To-Do-List\\DataBase\\DataBase.csproj",
+        "packagesPath": "C:\\Users\\dimab\\.nuget\\packages\\",
+        "outputPath": "O:\\ForEdu\\ITStep\\Предмети\\CommandProjectDotNet\\To-Do-List\\DataBase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dimab\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -91,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

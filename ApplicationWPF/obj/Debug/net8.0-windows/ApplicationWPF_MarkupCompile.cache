@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\github\To-Do-List\ApplicationWPF\obj\Debug\net8.0-windows\
+O:\ForEdu\ITStep\Предмети\CommandProjectDotNet\To-Do-List\ApplicationWPF\obj\Debug\net8.0-windows\
 ApplicationWPF
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\github\To-Do-List\ApplicationWPF\App.xaml
-2-1034981944
+O:\ForEdu\ITStep\Предмети\CommandProjectDotNet\To-Do-List\ApplicationWPF\App.xaml
+3-1327395669
 
-5-1400439974
-240-1039488545
-MainWindow.xaml;Windows\TaskListWindow.xaml;
+61704118728
+245-336077054
+MainWindow.xaml;Windows\AdditionPanels.xaml;Windows\TaskListWindow.xaml;
 
 False
 

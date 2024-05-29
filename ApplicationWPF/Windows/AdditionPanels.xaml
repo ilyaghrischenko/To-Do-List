@@ -1,0 +1,192 @@
+﻿<Window x:Class="ApplicationWPF.Windows.AdditionPanels"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:ApplicationWPF.Windows"
+        mc:Ignorable="d"
+        Title="AdditionPanels" Height="400" Width="500">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="18*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="1"
+              Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+
+            <!--NAVIGATION BUTTONS-->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Button Margin="10"
+                        Click="AddNewTask_Click" 
+                        Content="ADD NEW TASK"
+                        Grid.Column="0"/>
+
+                <Button Margin="10"
+                        Click="AddNewCategory_Click" 
+                        Content="ADD NEW CATEGORY"
+                        Grid.Column="1"/>
+
+                <Button Margin="10"
+                        Click="BackToTasks_Click" 
+                        Content="BACK TO TASKS"
+                        Grid.Column="2"/>
+
+            </Grid>
+            
+            <!--ADDITION OF TASKS-->
+            <Grid x:Name="TaskAdd_Grid"
+                  Grid.Row="1"
+                  Visibility="Collapsed">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                
+                <!--TITLE-->
+                <Label Content="Enter title:"
+                       Grid.Column="1"
+                       VerticalAlignment="Center"/>
+                <TextBox x:Name="Title_TextBox"
+                         Grid.Column="1"
+                         VerticalAlignment="Center"
+                         HorizontalAlignment="Right"
+                         Width="150"/>
+
+                <!--DESCRIPTION-->
+                <Label Content="Enter description:"
+                       Grid.Column="1"
+                       Grid.Row="1"
+                       VerticalAlignment="Center"/>
+                <TextBox x:Name="Description_TextBox"
+                         Grid.Column="1"
+                         Grid.Row="1"
+                         VerticalAlignment="Center"
+                         HorizontalAlignment="Right"
+                         Width="150"/>
+
+                <!--DATE-->
+                <Label Content="Select date:"
+                       Grid.Column="1"
+                       Grid.Row="2"
+                       VerticalAlignment="Center"/>
+                <DatePicker x:Name="DatePicker"
+                            Grid.Column="1"
+                            Grid.Row="2"
+                            Width="150"
+                            Height="30"
+                            HorizontalAlignment="Right"/>
+
+                <Label Content="Enter time:"
+                       Grid.Column="1"
+                       Grid.Row="3"
+                       VerticalAlignment="Center"/>
+                <!--TIME-->
+                <StackPanel Grid.Row="3"
+                            Grid.Column="1"
+                            Orientation="Horizontal"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Right">
+                    <Label Content="Hours:"/>
+                    <TextBox x:Name="Hours_TextBox"
+                             Width="30"/>
+                    <Label Content="Minutes:"/>
+                    <TextBox x:Name="Minutes_TextBox"
+                             Width="30"/>
+                </StackPanel>
+    
+                <!--CATEGORY-->
+                <Label Content="Select category:"
+                       Grid.Column="1"
+                       Grid.Row="4"/>
+                <ComboBox x:Name="Categories_Box"
+                          Grid.Column="1"
+                          Grid.Row="4"
+                          VerticalAlignment="Center"
+                          HorizontalAlignment="Right"
+                          Width="150"/>
+
+                <!--PRIORITY-->
+                <Label Content="Select priority:"
+                       Grid.Column="1"
+                       Grid.Row="5"
+                       VerticalAlignment="Center"/>
+                <ComboBox x:Name="Priorities_Box"
+                          Grid.Column="1"
+                          Grid.Row="5"
+                          VerticalAlignment="Center"
+                          HorizontalAlignment="Right"
+                          Width="150"/>
+
+                <Button Click="AddTask_Click"
+                        Content="ADD TASK"
+                        Grid.Column="1"
+                        Grid.Row="6"
+                        Margin="50,5"/>
+
+            </Grid>
+
+            <!--ADDITION OF CATEGORIES-->
+            <Grid x:Name="CatAdd_Grid"
+                  Grid.Row="1"
+                  Visibility="Visible">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Label Content="Enter category name:"
+                       Grid.Column="1"
+                       VerticalAlignment="Center"/>
+                <TextBox x:Name="CategoryName_TextBox"
+                         Grid.Column="1"
+                         VerticalAlignment="Center"
+                         HorizontalAlignment="Right"
+                         Width="130"/>
+
+                <Button Click="AddCategory_Click"
+                        Content="ADD CATEGORY"
+                        Grid.Column="1"
+                        Grid.Row="1"
+                        Width="100"
+                        Height="30"/>
+
+            </Grid>
+
+        </Grid>
+        
+    </Grid>
+</Window>
