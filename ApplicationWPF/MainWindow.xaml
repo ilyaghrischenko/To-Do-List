@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ApplicationWPF"
         mc:Ignorable="d"
-        Title="Log in" Height="300" Width="250"
+        Title="Authorisation" Height="300" Width="250"
         MaxHeight="300" MinHeight="300"
         MaxWidth="250" MinWidth="250"
         WindowStartupLocation="CenterScreen">
@@ -78,6 +78,19 @@
                         FontFamily="Times New Roman"
                         FontWeight="Bold"/>
             </Grid>
+        </Grid>
+
+        <Grid Grid.Row="2"
+              Grid.Column="1">
+            <TextBlock HorizontalAlignment="Center"
+                       VerticalAlignment="Center">
+                <Hyperlink x:Name="SignUp"
+                           Click="SignUp_Click"
+                           FontFamily="Times New Roman"
+                           FontWeight="Bold">
+                    Sign up
+                </Hyperlink>
+            </TextBlock>
         </Grid>
     </Grid>
 </Window>

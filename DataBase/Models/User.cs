@@ -1,4 +1,6 @@
-﻿namespace DataBase.Models
+﻿using System.ComponentModel;
+
+namespace DataBase.Models
 {
     public class User
     {

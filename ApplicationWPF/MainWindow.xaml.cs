@@ -42,25 +42,26 @@ namespace ApplicationWPF
                 MessageBox.Show("You have not filled all fields");
                 return;
             }
-
-            User user = new(LoginInput.Text, PasswordInput.Password);
-            LogInButton.IsEnabled = false;
             var users = await ToDoListHandle.GetUsersAsync();
-            var findedUser = users.FirstOrDefault(x => x.ToString() == user.ToString());
+            var findedUser = users.FirstOrDefault(x => x.Login == LoginInput.Text && x.Password == PasswordInput.Password);
+            if (findedUser == null)
+            {
+                MessageBox.Show("Not found");
+                LoginInput.Clear();
+                PasswordInput.Clear();
+                return;
+            }
 
-            if (findedUser != null)
-            {
-                user = findedUser;
-                MessageBox.Show("Logged in");
-            }
-            else
-            {
-                using ToDoListContext db = new();
-                db.Users.Add(user);
-                await db.SaveChangesAsync();
-                MessageBox.Show("Registered");
-            }
+            LogInButton.IsEnabled = false;
+            User user = findedUser;
+            MessageBox.Show("You have successfully logged in");
             TaskListWindow window = new(user);
+            window.Show();
+            Close();
+        }
+        private async void SignUp_Click(object sender, RoutedEventArgs e)
+        {
+            RegistrationWindow window = new();
             window.Show();
             Close();
         }

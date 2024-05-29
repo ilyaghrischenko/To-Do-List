@@ -5,8 +5,100 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ApplicationWPF.Windows"
         mc:Ignorable="d"
-        Title="TaskListWindow" Height="450" Width="800">
+        Title="Tasks" Height="400" Width="500"
+        MaxHeight="400" MinHeight="400"
+        MaxWidth="500" MinWidth="500"
+        WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="18*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition/>
+            <RowDefinition Height="0.2*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1"
+              Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="0.3*"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="0.4*"/>
+                </Grid.RowDefinitions>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="1"
+                            Content="Completed"
+                            x:Name="CompletedButton"
+                            Click="CompletedButton_Click"
+                            FontFamily="Times New Roman"
+                            BorderBrush="Blue"
+                            FontWeight="Bold"/>
+                    <Button Grid.Column="3"
+                            Content="All"
+                            x:Name="AllButton"
+                            Click="AllButton_Click"
+                            FontFamily="Times New Roman"
+                            BorderBrush="Blue"
+                            FontWeight="Bold"
+                            IsEnabled="False"/>
+                    <Button Grid.Column="5"
+                            Content="Active"
+                            x:Name="ActiveButton"
+                            Click="ActiveButton_Click"
+                            FontFamily="Times New Roman"
+                            BorderBrush="Blue"
+                            FontWeight="Bold"/>
+                </Grid>
+
+                <DataGrid Grid.Row="2"
+                          x:Name="TasksList"
+                          AutoGenerateColumns="True"
+                          AutoGeneratingColumn="TasksList_AutoGeneratingColumn"
+                          IsReadOnly="True"
+                          SelectionChanged="TasksList_SelectionChanged"/>
+
+                <CheckBox Grid.Row="3"
+                          VerticalAlignment="Center"
+                          HorizontalAlignment="Center"
+                          x:Name="CompleteCheckBox"
+                          Click="CompleteCheckBox_Click"
+                          IsEnabled="False"/>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Column="1"
+              Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0.6*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="1"
+                    Content="Add task"
+                    x:Name="AddButton"
+                    Click="AddButton_Click"
+                    FontFamily="Times New Roman"
+                    FontWeight="Bold"
+                    BorderBrush="Blue"/>
+        </Grid>
     </Grid>
 </Window>

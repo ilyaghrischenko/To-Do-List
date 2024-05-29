@@ -13,7 +13,7 @@ namespace DataBase
         public static async Task<List<Priority>> GetPrioritiesAsync()
         {
             using ToDoListContext db = new();
-            return await db.Priorities.ToListAsync();
+            return await db.Priorities.Include("Category").Include("Priority").Include("User").ToListAsync();
         }
         public static async Task<List<DataBase.Models.Task>> GetTasksAsync()
         {
@@ -23,7 +23,7 @@ namespace DataBase
         public static async Task<List<User>> GetUsersAsync()
         {
             using ToDoListContext db = new();
-            return await db.Users.ToListAsync();
+            return await db.Users.Include(x => x.Tasks).ToListAsync();
         }
 
         public static async System.Threading.Tasks.Task AddCategoryAsync(Category category)
