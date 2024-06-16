@@ -40,7 +40,6 @@ namespace ApplicationWPF.Windows
             User user = new(LoginInput.Text, PasswordInput.Password);
             db.Users.Add(user);
             await db.SaveChangesAsync();
-            MessageBox.Show("You have successfully registered");
             Close();
         }
         private async void LogIn_Click(object sender, RoutedEventArgs e)

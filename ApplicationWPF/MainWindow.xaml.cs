@@ -54,7 +54,6 @@ namespace ApplicationWPF
 
             LogInButton.IsEnabled = false;
             User user = findedUser;
-            MessageBox.Show("You have successfully logged in");
             TaskListWindow window = new(user);
             window.Show();
             Close();

@@ -51,7 +51,15 @@ namespace ApplicationWPF.Windows
                 return;
             }            
             var dateTime = new DateTime(selectedDate.Year, selectedDate.Month, selectedDate.Day, int.Parse(Hours_TextBox.Text), int.Parse(Minutes_TextBox.Text), 0);
-            await _context.AddAsync(new DataBase.Models.Task(Title_TextBox.Text, dateTime, (Priority)Priorities_Box.SelectedItem, _user, (Category)Categories_Box.SelectedItem));
+            var priority = Priorities_Box.SelectedItem as Priority;
+            var category = Categories_Box.SelectedItem as Category;
+            var description = Description_TextBox.Text;
+            
+            //problema
+            await _context.Tasks.AddAsync(new DataBase.Models.Task(Title_TextBox.Text, dateTime,
+                _context.Priorities.ToList().First(x => x.Id == priority.Id), _context.Users.ToList().First(x => x.Id == _user.Id), category == null
+                    ? null
+                    : _context.Categories.ToList().First(x => x.Id == category.Id), description));
             await _context.SaveChangesAsync();
             MessageBox.Show("Task added!");
         }
@@ -69,8 +77,8 @@ namespace ApplicationWPF.Windows
                 return;
             }
 
-            _context.Add(new Category(CategoryName_TextBox.Text));
-            _context.SaveChanges();
+            await _context.AddAsync(new Category(CategoryName_TextBox.Text));
+            await _context.SaveChangesAsync();
             MessageBox.Show("Category added!");
             LoadData();
         }

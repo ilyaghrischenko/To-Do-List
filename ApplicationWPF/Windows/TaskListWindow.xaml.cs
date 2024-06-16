@@ -2,6 +2,7 @@
 using DataBase.Models;
 using System.Windows;
 using System.Windows.Controls;
+using Microsoft.EntityFrameworkCore;
 
 namespace ApplicationWPF.Windows
 {
@@ -31,6 +32,7 @@ namespace ApplicationWPF.Windows
         => TasksList.ItemsSource = _user.Tasks;
         private async void TasksList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (TasksList.SelectedItem == null) return;
             CompleteCheckBox.IsEnabled = true;
             CompleteCheckBox.IsChecked = ((TasksList.SelectedItem as DataBase.Models.Task).IsCompleted) ? true : false;
         }
